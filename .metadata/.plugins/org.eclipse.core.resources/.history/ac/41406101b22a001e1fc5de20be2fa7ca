@@ -1,0 +1,4 @@
+javax.validation.constraints.Email.message=input mailaddress
+javax.validation.constraints.Min.message=input more {value} values
+javax.validation.constraints.NotEmpty.message=inpur values
+org.hibernate.validator.constraints.Length.message=Max length is {max}
