@@ -32,6 +32,6 @@ public class UserService {
         
         @Transactional(readOnly=false)
         public void deleteUser(Set<Integer> id) {
-                userRepository.deleteInBatch(userRepository.findAllById(id));
+                userRepository.deleteAllInBatch(userRepository.findAllById(id));
         }
 }
